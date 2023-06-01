@@ -48,4 +48,11 @@
     stroke-dasharray: 125.6;
     transform: rotate(-90deg);
   }
-  
+  @media (max-width: 600px) {
+    .swiper{
+      width: 100%;
+    }
+    .swiper-slide img{
+      height: 300px;
+    }
+  }

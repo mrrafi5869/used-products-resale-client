@@ -7,6 +7,8 @@ import CarCategories from '../CarCategories/CarCategories';
 import CarSwiper from '../CarSwiper/CarSwiper';
 import AutoScroll from '../AutoScroll/AutoScroll';
 import Wheel from '../Wheel/Wheel';
+import TopTrendingProducts from '../TopTrendingProducts/TopTrendingProducts';
+import DiscountProducts from '../DiscountProducts/DiscountProducts';
 
 const Home = () => {
     return (
@@ -17,6 +19,8 @@ const Home = () => {
             <AutoScroll></AutoScroll>
             <Wheel></Wheel>
             <CarSwiper></CarSwiper>
+            <TopTrendingProducts></TopTrendingProducts>
+            <DiscountProducts></DiscountProducts>
             <CarAccessories></CarAccessories>
             <Info></Info>
         </div>
